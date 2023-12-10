@@ -1,0 +1,41 @@
+/* Itálica */
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    font-weight: 400;
+    font-display: fallback;
+    src: url(Source_Sans_3/static/SourceSans3-Italic.ttf) format('truetype');
+  }
+  
+  /* Normal - Peso 300 */
+  @font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-display: fallback;
+    src: url(Source_Sans_3/static/SourceSans3-Light.ttf) format('truetype');
+  }
+  
+  /* Normal - Peso 400 */
+  @font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: url(Source_Sans_3/static/SourceSans3-Regular.ttf) format('truetype');
+  }
+  
+  /* Negrita - Peso 700 */
+  @font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-display: fallback;
+    src: url(Source_Sans_3/static/SourceSans3-Bold.ttf) format('truetype');
+  }
+  
+  /* Aplicar la fuente a elementos específicos */
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
