@@ -1,6 +1,7 @@
 #!/bin/bash
 
-source /home/lag13-ofc/TODO/APP/foodAppFinal/FoodApp/.env
+cd "$(dirname "${BASH_SOURCE[0]}")"
+source ../../.env
 
 TIMESTAMP=$(date +"%Y-%m-%d_%H:%M:%S")
 BACKUP_FILE="$BACKUP_DIR/$DB_NAME$TIMESTAMP.sql"
